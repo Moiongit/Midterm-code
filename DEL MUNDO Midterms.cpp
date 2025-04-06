@@ -23,8 +23,8 @@ public:
         category = c;
     }
 
-    void setProductID(int p) {
-         productID = p; }
+    void setProductID(int id) {
+         productID = id; }
     int getProductID() const { 
         return productID; }
 
