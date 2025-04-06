@@ -13,7 +13,7 @@ private:
     double price;
 
 public:
-    Product() : productID(0), name(""), category(""), quantity(0), price(0.0) {}{}
+    Product() : productID(0), name(""), category(""), quantity(0), price(0.0) {}
 
     Product(int id, string n, int q, double p, string c) {
         productID = id;
