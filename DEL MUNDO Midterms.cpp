@@ -13,7 +13,7 @@ private:
     double price;
 
 public:
-    Product() {}
+    Product() : productID(0), name(""), category(""), quantity(0), price(0.0) {}
 
     Product(int id, string n, int q, double p, string c) {
         productID = id;
@@ -23,8 +23,8 @@ public:
         category = c;
     }
 
-    void setProductID(int p) {
-         productID = p; }
+    void setProductID(int id) {
+         productID = id; }
     int getProductID() const { 
         return productID; }
 
